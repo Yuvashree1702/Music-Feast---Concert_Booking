@@ -1,0 +1,43 @@
+.update-booking {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color:rgb(219, 235, 236);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .update-booking h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .update-booking p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .update-booking select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #43b5ab;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .update-booking button {
+    padding: 10px 20px;
+    margin: 15px 10px 0 0;
+    background-color: #62bc88;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  

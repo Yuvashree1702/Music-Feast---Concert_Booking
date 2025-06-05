@@ -1,0 +1,87 @@
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background: #f2f6fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .book {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .form {
+    font-size: 38px;
+    color: #2c3e50;
+    margin-bottom: 8px;
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    color: #777b7b;
+    margin-bottom: 20px;
+  }
+  
+  .bookform {
+    max-width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  .bookform input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  .bookform input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+  }
+  
+  .bgroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .bgroup button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bgroup button:first-child {
+    background-color: #1b7dbe;
+    color: white;
+  }
+  
+  .bgroup button:first-child:hover {
+    background-color: #2c6388;
+  }
+  
+  .bgroup button:last-child {
+    background-color: #d43725;
+    color: white;
+  }
+  
+  .bgroup button:last-child:hover {
+    background-color: #c0392b;
+  }
+  

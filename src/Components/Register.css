@@ -1,0 +1,113 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    text-decoration: none;  
+}
+.register-page {
+    max-width: 1000%;
+    margin: auto;
+    background-color: #f4f6f8;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.register{
+  width: 420px;
+  height: 550px;
+  padding: 25px;
+  box-shadow: 0 0 10px black;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(241, 234, 163);
+  border-radius: 10px;
+  margin-bottom: 65px;
+  margin-top: 10px;
+ 
+}
+.register{
+    >h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.register button{
+    width:150px;
+    padding: 13px;
+    margin-left:120px;
+    margin-top: 15px;
+    background-color:rgb(229, 162, 61);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.register button:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+}
+
+.last1{
+    width: 350px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border:1px solid rgb(156, 113, 5);
+    border-radius: 4px;
+}
+.a{
+    color: rgb(156, 113, 5);
+   font-size:120%;
+}
+.agree{
+    font-weight:500;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+
+.r{
+    width:150px;
+    padding: 13px;
+    margin-left:120px;
+    margin-top: 45px;
+    background-color:rgb(232, 167, 70);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.r:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    font-weight: bold;
+    background-color: rgb(226, 162, 42);
+}
+.register label{
+    font-weight: 600;
+}
+.fle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.fle img{
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
